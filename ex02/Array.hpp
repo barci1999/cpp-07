@@ -6,13 +6,14 @@
 /*   By: pablalva <pablalva@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 17:16:57 by pablalva          #+#    #+#             */
-/*   Updated: 2025/10/26 16:32:09 by pablalva         ###   ########.fr       */
+/*   Updated: 2025/10/26 16:45:03 by pablalva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ARRAY_HPP
 # define ARRAY_HPP
 # include <string>
+
 template <typename T>
 class Array
 {
