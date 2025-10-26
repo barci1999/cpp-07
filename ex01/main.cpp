@@ -6,7 +6,7 @@
 /*   By: pablalva <pablalva@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 15:54:26 by pablalva          #+#    #+#             */
-/*   Updated: 2025/10/25 16:05:17 by pablalva         ###   ########.fr       */
+/*   Updated: 2025/10/25 16:51:45 by pablalva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,6 @@ void doubleValue(T &x)
 {
     x = x + x;
 }
-// Esta es una plantilla genérica que funciona con cualquier tipo T
-
-
 template<typename T>
 void printValue(const T &x)
 {
@@ -36,11 +33,6 @@ void doubleValue<std::string>(std::string &s)
 {
     s += " " + s;
 }
-// Esta es una versión especial de doubleValue
-// que se usará solo cuando T sea std::string.
-// Se llama doubleValue y no doubleString, por que es una especializacion de
-// doubleValue de arriba. Esa es la original
-
 void printString(const std::string &s)
 {
     std::cout << s << " ";
